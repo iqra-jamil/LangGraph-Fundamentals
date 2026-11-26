@@ -16,7 +16,7 @@ Goal: Understand the complete cycle: LLM → Tool → LLM → Response.
 - it is: model → tools → model → ... → END, and tools_condition is what decides whether to loop again or stop.
 
 # What is the relationship between an LLM and tools?
-  an LLM cant execute a tool itself ,it just send the structure tool cal (tool name and parameters) our code then like ToolNode execute the tool and sed the results back to LLM and LLM then anser
+  an LLM cant execute a tool itself ,it just send the structure tool cal (tool name and parameters) our code then like ToolNode execute the tool and send the results back to LLM and LLM then anser
 
 # How does the LLM decide whether to call a tool?
 - the LLM sees the tool definetion (like tool name ,desc (docstring),argumnt schema) and user's msg and then based on that it decide which tool to call or whether to call a tool or not 
